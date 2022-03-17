@@ -22,4 +22,14 @@ public class Member {
 	
 	public String getName() { return this.name; }
 	public String getId() { return this.id; }
+	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
+		sb.append(this.name);
+		sb.append(":");
+		sb.append(this.id);
+		sb.append("]");
+		return sb.toString();
+	}
 }
