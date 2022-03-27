@@ -7,6 +7,6 @@ public class Calculator {
 	}
 	
 	public int instanceMethod(int x, int y) {
-		return x + y;
+		return x * y;
 	}
 }

@@ -23,5 +23,8 @@ public class RunnableTestMain {
 		};
 		
 		runnable.run();
+		//////////////////////////////////////////
+		thr = new Thread(runnable);
+		thr.start();
 	}
 }

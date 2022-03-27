@@ -20,7 +20,7 @@ public class ArgumentMethodReferencesTestMain {
 		function = (a, b) -> a.compareToIgnoreCase(b);
 		print(function.applyAsInt("Java8", "JAVA8"));
 		
-		function = String :: compareToIgnoreCase;
+		function = String::compareToIgnoreCase;
 		print(function.applyAsInt("Java8", "JAVA8"));
 	}
 }
