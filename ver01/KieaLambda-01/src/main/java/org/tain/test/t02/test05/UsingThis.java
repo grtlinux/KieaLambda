@@ -5,7 +5,7 @@ public class UsingThis {
 	private int outterField = 10;
 	
 	class Inner {
-		int innerField = 20;
+		private int innerField = 20;
 		
 		void method() {
 			MyFunctionalInterface fi = () -> {
