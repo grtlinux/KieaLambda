@@ -2,7 +2,6 @@ package org.tain.test.t02.test11;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
 import java.util.function.ToIntFunction;
 
 public class FunctionTestMain {
